@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+
+
+
+
+        <report
+                id="report_simple_quotation"
+                model="sale.order"
+                report_type="qweb-pdf"
+                string="Simple Quotation"
+                name="simple_quotation.quotation"
+                file="simple_quotation.quotation"
+        />
+
+    </data>
+</odoo>
